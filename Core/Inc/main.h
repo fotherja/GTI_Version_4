@@ -61,6 +61,8 @@ void Error_Handler(void);
 #define DFSDM_Clk_GPIO_Port GPIOC
 #define LED_Pin GPIO_PIN_2
 #define LED_GPIO_Port GPIOA
+#define DAC_Out_Pin GPIO_PIN_5
+#define DAC_Out_GPIO_Port GPIOA
 #define Phase_BN_Pin GPIO_PIN_7
 #define Phase_BN_GPIO_Port GPIOA
 #define Phase_AN_Pin GPIO_PIN_0
@@ -79,8 +81,45 @@ void Error_Handler(void);
 #define Phase_A_GPIO_Port GPIOA
 #define Relay_Pin GPIO_PIN_11
 #define Relay_GPIO_Port GPIOA
-/* USER CODE BEGIN Private defines */
 
+/* USER CODE BEGIN Private defines */
+#define 		PLL_Kp 					1.0e-3f 								// PID parameters for our PLL tracking control
+#define 		PLL_Ki 					1.0e-4f									// PoM: 4.0e-3f, 2.0e-2f
+#define 		PLL_Kd 					0.0f
+#define 		PLL_LIMIT 				50.0f
+#define 		PLL_PERIOD 				7.8e-5f 								// 1 / (50 * 256) seconds
+#define 		SINE_STEP_PERIOD 		999 									// Ticks between incrementing our LO (Local Osc) index for 50Hz sine
+//##############################################
+#define			I_OUT_Kp				50.0e0f									// PID parameters for our current output controller
+#define			I_OUT_Ki				1.0e0f
+#define			I_OUT_Kd				0.0f
+#define			I_OUT_Limit				360.0f									// Max voltage swing
+#define			I_OUT_PERIOD			75.0e-6f
+
+//##############################################
+#define 		SINE_STEPS           	64                          			// Number of steps to build our sine wave in
+#define 		DUTY_LIMIT 				994 									// Our duty width can vary from -1000 to +1000
+#define			DUTY_MAX				1000.0f
+#define			INTEGRAL_SIZE			64
+#define			RMS_INTEGRAL_SIZE		64
+
+#define 		F_CONVERSION_K 			8.065e-3f								// These are calibration constants
+
+#define 		RMS_LOWER_LIMIT 		0 										// These values are for the grid checks. We disconnect if our metrics are out of these ranges (SI Units)
+#define 		RMS_UPPER_LIMIT 		62500
+#define 		FREQ_DEVIATION_LIMIT 	0.5f
+#define			V_BUS_MINIMUM			50.0f
+#define 		V_BUS_MAXIMUM 			380.0f
+#define 		I_OUTPUT_MAXIMUM 		2.5f
+
+#define 		ENABLE_JOINING_GRID 	true
+#define			REQUEST_JOIN_GRID		2
+#define 		GRID_ACCEPTABLE 		1000
+#define 		GRID_UNACCEPTABLE 		-1000
+#define 		GRID_BAD_FAIL_RATE 		10 										// Some grid checks are allowed to fail for a certain amount of time (eg. Frequency) this parameter determines for how long
+#define 		GRID_OK					0
+
+#define 		CONSTRAIN(x,lower,upper) ((x)<(lower)?(lower):((x)>(upper)?(upper):(x)))
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

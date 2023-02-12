@@ -332,8 +332,6 @@ void HAL_DFSDM_FilterMspInit(DFSDM_Filter_HandleTypeDef* dfsdm_filterHandle)
 
 }
 
-//static uint32_t DFSDM1_Init = 0;
-
 void HAL_DFSDM_ChannelMspInit(DFSDM_Channel_HandleTypeDef* dfsdm_channelHandle)
 {
 

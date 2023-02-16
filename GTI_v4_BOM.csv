@@ -1,0 +1,48 @@
+Ref,Qnty,Value,Footprint,Link to Part
+"C1, C2, C3, C4, C10, C18, C19, C35, C39, C42, C43, C45, C48, C51, C52, C57, C60, C62, C63, C65, C68, C69, C70, ",23,100nF,Capacitor_SMD:C_0603_1608Metric,
+"C5, C21, ",2,0.47uF,Capacitor_SMD:C_2225_5664Metric,
+"C6, C14, C23, C26, C32, ",5,47nF,Capacitor_SMD:C_0402_1005Metric,
+"C7, C8, C24, C38, C41, C47, C56, C59, C64, C67, C71, ",11,1uF,Capacitor_SMD:C_0603_1608Metric,
+"C9, ",1,47uF,Capacitor_SMD:C_0402_1005Metric,
+"C11, C25, C29, ",3,4.7uF,Capacitor_SMD:C_0603_1608Metric,
+"C12, C13, C30, C31, ",4,22pF,Capacitor_SMD:C_0603_1608Metric,
+"C15, C33, ",2,330pF,Capacitor_SMD:C_0603_1608Metric,
+"C16, C17, ",2,20pF,Capacitor_SMD:C_0603_1608Metric,
+"C20, ",1,1uF,Capacitor_THT:C_Rect_L27.0mm_W11.0mm_P22.00mm,https://www.digikey.co.uk/en/products/detail/epcos-tdk-electronics/B32672Z4105K000/1648137?utm_medium=email&utm_source=oce&utm_campaign=4251_OCE22RT&utm_content=productdetail_UK&utm_cid=2117998&so=79236903&mkt_tok=MDI4LVNYSy01MDcAAAGIy9wDPTjK6-_0Mu2Q7Ib_Saf4fSYX1QWw0H-wawj4Tu8oK7UwZdRkqx-HSXUCTS_aLI-8Wks3t-0biHb1sugcppd9AiRddoYTDtcZUfRM
+"C22, C27, C28, ",3,2200pF,C901U222MZVDBA7317:C901U222MZVDBA7317,https://www.mouser.co.uk/ProductDetail/KEMET/C901U222MZVDBA7317?qs=gqcQgTT0fkghybSgFzhELw%3D%3D&countryCode=GB&currencyCode=GBP
+"C34, C49, C50, ",3,22uF,595D226X9020:CAPPC3328X220N,https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/595D226X9020B2T?qs=59Rn2Bt6jP0%252Bqh5q2Cnvkg%3D%3D&countryCode=GB&currencyCode=GBP
+"C36, C53, C61, ",3,100pF,Capacitor_SMD:C_0603_1608Metric,
+"C37, C54, C55, ",3,2.2uF,Capacitor_SMD:C_0603_1608Metric,
+"C40, C46, C58, C66, ",4,10nF,Capacitor_SMD:C_0603_1608Metric,
+"C44, ",1,0.47uF,Capacitor_THT:C_Rect_L31.5mm_W17.0mm_P27.50mm_MKS4,
+"C73, ",1,10uF,Capacitor_SMD:C_0805_2012Metric,
+"C74, C75, ",2,10uF,Capacitor_SMD:C_0603_1608Metric,
+"D1, D2, D3, ",3,SB05W05C-TB-E,SB05W05C:SOT95P250X135-3N,https://www.mouser.co.uk/ProductDetail/onsemi/SB05W05C-TB-E?qs=LDM2r2BBpnYlBBA2WRzEIw%3D%3D&countryCode=GB&currencyCode=GBP
+"D4, ",1,LED,LED_SMD:LED_0603_1608Metric,
+"D6, ",1,DIODE,ES1J:DIOM5227X250N,
+"H1, H2, H3, H4, ",4,MountingHole,MountingHole:MountingHole_3.2mm_M3,
+"IC1, IC2, ",2,MASTERGAN2TR,MASTERGAN2:MASTERGAN2TR,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MASTERGAN2TR?qs=81r%252BiQLm7BQvt0htY1lJdA%3D%3D&countryCode=GB&currencyCode=GBP
+"IC3, IC7, IC8, ",3,MAX253CSA+,MAX253CSA:SOIC127P600X175-8N,https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX253CSA+?qs=1THa7WoU59GFRbuCKGwy%2Fg%3D%3D&countryCode=GB&currencyCode=GBP
+"IC4, IC5, IC6, IC9, ",4,AMC1306M25QDWVRQ1,AMC1306:SOIC127P1150X280-8N,https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC1306M25QDWVRQ1?qs=t7xnP681wgWXZUIusdWe2w%3D%3D&countryCode=GB&currencyCode=GBP
+"J1, ",1,Screw_Terminal_01x03,TerminalBlock:TerminalBlock_bornier-3_P5.08mm,
+"J2, J3, ",2,Screw_Terminal_01x02,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,
+"J4, ",1,Conn_01x06_Male,Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical,
+"JP1, ",1,SolderJumper_3_Open,Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,
+"K1, K2, ",2,G5LE-1,Relay_THT:Relay_SPDT_Omron-G5LE-1,https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G5LE-1-VD-DC12?qs=JK6Bpmia%2FmtRBi0t3CAu5g%3D%3D&countryCode=GB&currencyCode=GBP
+"L1, ",1,2mH,Inductor_THT:L_Toroid_Vertical_L35.1mm_W21.1mm_P18.50mm_Vishay_TJ6,
+"L2, L4, ",2,470uH,Inductor_THT:L_Toroid_Vertical_L41.9mm_W19.1mm_P15.80mm_Vishay_TJ7,
+"L3, ",1,744822301,744822301:WE-CMB_S5,https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744822301?qs=AXuZnX5ayYTjhjaot9mCEA%3D%3D&countryCode=GB&currencyCode=GBP
+"PS1, PS2, PS3, ",3,AP2210K-5.0TRG1,AP2210K-5.0TRG1:SOT95P282X130-5N,https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2210K-5.0TRG1?qs=x6A8l6qLYDCAXUjYnFg7HQ%3D%3D&countryCode=GB&currencyCode=GBP
+"Q2, ",1,2N7002,Package_TO_SOT_SMD:SOT-23,
+"R1, R6, R16, R17, R18, R19, R21, R22, R23, R28, ",10,10R,Resistor_SMD:R_0603_1608Metric,
+"R2, R4, R11, R15, ",4,47R,Resistor_SMD:R_0603_1608Metric,
+"R3, R12, R13, R20, R27, R29, R30, ",7,1K,Resistor_SMD:R_0603_1608Metric,
+"R5, R8, R9, R24, R25, R26, ",6,470K,Resistor_SMD:R_0805_2012Metric,
+"R7, ",1,6.8R,Resistor_SMD:R_2512_6332Metric,https://www.digikey.co.uk/en/products/detail/yageo/AC2512FK-076R8L/5899890?utm_medium=email&utm_source=oce&utm_campaign=4251_OCE22RT&utm_content=productdetail_UK&utm_cid=2117998&so=79236903&mkt_tok=MDI4LVNYSy01MDcAAAGIy9wDPS4PMFMBl0KzYNDkHlv47DF4o1rwTjMP6qkfIw5NXaN71beHHNw1Y_6iS66Nxk-Eb9gHoDiqWRdCM4x2bHNxjBrMmCSXRn9mGrsS
+"R10, R14, ",2,50mR,Resistor_SMD:R_2512_6332Metric,
+"T1, T2, T3, ",3,760390014,760390014:760390015,https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/760390014?qs=wElim4iM2pgaRMAKec%2FMSQ%3D%3D&countryCode=GB&currencyCode=GBP
+"U1, ",1,STM32L475RCTx,Package_QFP:LQFP-64_10x10mm_P0.5mm,https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L475RCT3?qs=dTJS0cRn7oguKNzbYFd3Hg%3D%3D&countryCode=GB&currencyCode=GBP
+"U2, ",1,Si8640EC-B-IS1,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,https://www.digikey.co.uk/en/products/detail/skyworks-solutions-inc/SI8640EC-B-IS1/2623332?utm_medium=email&utm_source=oce&utm_campaign=4251_OCE22RT&utm_content=productdetail_UK&utm_cid=2117998&so=79236903&mkt_tok=MDI4LVNYSy01MDcAAAGIy9wDPbNW7hT4EDSjgQ_M3dKPmiOjVAtL_W_K7GZa_pK5oG-C9hva2H1i7EZOPKFE8yHoEtmoiOOfSubw2frrWy4-ZmKZBAMRXxtN3bIu
+"U3, ",1,AZ1117-5.0,AZ1117CD-5.0TRG1:AZ1117CD50TRG1,https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CD-5.0TRG1?qs=dZoB6MK9LKPuBZ2sfMDxSA%3D%3D&countryCode=GB&currencyCode=GBP
+"U4, ",1,NCP1117-3.3_SOT223,Package_TO_SOT_SMD:SOT-223-3_TabPin2,
+"Y1, ",1,Crystal_GND24,Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm,

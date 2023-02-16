@@ -14,7 +14,7 @@ Ref,Qnty,Value,Footprint,Link to Part
 "C36, C53, C61, ",3,100pF,Capacitor_SMD:C_0603_1608Metric,
 "C37, C54, C55, ",3,2.2uF,Capacitor_SMD:C_0603_1608Metric,
 "C40, C46, C58, C66, ",4,10nF,Capacitor_SMD:C_0603_1608Metric,
-"C44, ",1,0.47uF,Capacitor_THT:C_Rect_L31.5mm_W17.0mm_P27.50mm_MKS4,
+"C44, ",1,0.47uF,Capacitor_THT:C_Rect_L31.5mm_W17.0mm_P27.50mm_MKS4,https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1848610454K2?qs=i2mp%2Fn9EmlJZ%252B5SPm5w6gg%3D%3D
 "C73, ",1,10uF,Capacitor_SMD:C_0805_2012Metric,
 "C74, C75, ",2,10uF,Capacitor_SMD:C_0603_1608Metric,
 "D1, D2, D3, ",3,SB05W05C-TB-E,SB05W05C:SOT95P250X135-3N,https://www.mouser.co.uk/ProductDetail/onsemi/SB05W05C-TB-E?qs=LDM2r2BBpnYlBBA2WRzEIw%3D%3D&countryCode=GB&currencyCode=GBP

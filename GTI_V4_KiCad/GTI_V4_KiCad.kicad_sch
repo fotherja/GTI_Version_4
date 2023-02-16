@@ -6246,7 +6246,7 @@
     (property "Reference" "C25" (id 0) (at 194.31 104.1431 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (id 1) (at 194.31 106.68 0)
+    (property "Value" "4.7uF" (id 1) (at 194.31 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 202.8952 107.95 0)
@@ -8112,7 +8112,7 @@
     (property "Reference" "C71" (id 0) (at 304.8 134.6231 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (id 1) (at 304.8 137.16 0)
+    (property "Value" "1uF" (id 1) (at 304.8 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 297.4848 138.43 0)
@@ -8616,7 +8616,7 @@
   (symbol (lib_id "power:+3.3V") (at 44.45 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 844abd9b-b350-4544-902c-40e4b8f21f3c)
-    (property "Reference" "#PWR?" (id 0) (at 44.45 105.41 0)
+    (property "Reference" "#PWR0115" (id 0) (at 44.45 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 44.45 98.0242 0))
@@ -10658,7 +10658,7 @@
     (property "Reference" "R7" (id 0) (at 288.798 86.7953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2R" (id 1) (at 288.798 89.3322 0)
+    (property "Value" "6.8R" (id 1) (at 288.798 89.3322 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (id 2) (at 285.242 87.63 90)
@@ -11414,6 +11414,9 @@
     (path "/c48ce152-c46f-4de2-b0d1-a03dbffb5f71"
       (reference "#PWR0114") (unit 1) (value "GNDD") (footprint "")
     )
+    (path "/844abd9b-b350-4544-902c-40e4b8f21f3c"
+      (reference "#PWR0115") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/2d088de9-a606-491f-b18a-63e4604a3193"
       (reference "#PWR0117") (unit 1) (value "VBUS") (footprint "")
     )
@@ -11434,9 +11437,6 @@
     )
     (path "/fe78f739-1793-4690-b127-5d36e9039e98"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/844abd9b-b350-4544-902c-40e4b8f21f3c"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/c46dcd28-fc11-4708-aa27-66df842f6468"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -11511,7 +11511,7 @@
       (reference "C24") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/022f31cb-900a-4d06-b79c-6e6698b498b2"
-      (reference "C25") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C25") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/10d4c2f2-33e3-45f0-9582-244e74e1423b"
       (reference "C26") (unit 1) (value "47nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -11649,7 +11649,7 @@
       (reference "C70") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/633deeef-0ade-4329-b819-d915dc6fc9ed"
-      (reference "C71") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C71") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/951b7b55-2863-405e-ae6d-1fd17c3ec689"
       (reference "C73") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -11778,7 +11778,7 @@
       (reference "R6") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e4bf290b-a183-4fbe-880d-b39fd4cc4501"
-      (reference "R7") (unit 1) (value "2.2R") (footprint "Resistor_SMD:R_2512_6332Metric")
+      (reference "R7") (unit 1) (value "6.8R") (footprint "Resistor_SMD:R_2512_6332Metric")
     )
     (path "/14f76ad8-a66a-4187-a408-954b91a7b33c"
       (reference "R8") (unit 1) (value "470K") (footprint "Resistor_SMD:R_0805_2012Metric")

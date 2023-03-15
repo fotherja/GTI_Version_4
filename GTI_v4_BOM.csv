@@ -45,4 +45,4 @@ Ref,Qnty,Value,Footprint,Link to Part
 "U2, ",1,Si8640EC-B-IS1,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,https://www.digikey.co.uk/en/products/detail/skyworks-solutions-inc/SI8640EC-B-IS1/2623332?utm_medium=email&utm_source=oce&utm_campaign=4251_OCE22RT&utm_content=productdetail_UK&utm_cid=2117998&so=79236903&mkt_tok=MDI4LVNYSy01MDcAAAGIy9wDPbNW7hT4EDSjgQ_M3dKPmiOjVAtL_W_K7GZa_pK5oG-C9hva2H1i7EZOPKFE8yHoEtmoiOOfSubw2frrWy4-ZmKZBAMRXxtN3bIu
 "U3, ",1,AZ1117-5.0,AZ1117CD-5.0TRG1:AZ1117CD50TRG1,https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CD-5.0TRG1?qs=dZoB6MK9LKPuBZ2sfMDxSA%3D%3D&countryCode=GB&currencyCode=GBP
 "U4, ",1,NCP1117-3.3_SOT223,Package_TO_SOT_SMD:SOT-223-3_TabPin2,
-"Y1, ",1,Crystal_GND24,Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm,
+"Y1, ",1,ABM10-16.000MHZ-D30-T3,Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm,https://www.mouser.co.uk/ProductDetail/ABRACON/ABM10-16.000MHZ-D30-T3?qs=yJy3i4hRrMhOYZI5v9%2F5mA%3D%3D
